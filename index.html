@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mundo del Dragón</title>
+
+</head>
+
+<body>
+
+    <!-- Navegación principal -->
+    <header>
+        <nav>
+            <a href="#inicio">Inicio</a> |
+            <a href="#tipos">Tipos de dragones</a> |
+            <a href="#galeria">Galería</a> |
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección Inicio -->
+        <section id="inicio">
+            <center>
+                <h1>El Mundo del Dragón</h1>
+            </center>
+
+            <p>
+                Bienvenido a este pequeño blog sobre dragones.
+            </p>
+            <p>
+                Aquí encontrarás información general sobre dragones,
+                algunos tipos famosos y una galería con imágenes impresionantes.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Sección Tipos de dragones -->
+        <section id="tipos">
+            <h2>Tipos de Dragones</h2>
+            <p>
+                A lo largo de diferentes culturas, los dragones se representan de muchas formas.
+                A continuación se muestran algunos tipos populares:
+            </p>
+
+            <ul>
+                <li>
+                    <h3>Dragón europeo</h3>
+                    <img src="/img/dragonEuropeo.jfif" alt="Dragon Europeo">
+                    <p>
+                        Suele representarse como una criatura enorme, con alas, escamas y capaz de escupir fuego.
+                        En muchas historias guarda tesoros y protege castillos o cuevas.
+                    </p>
+                </li>
+                <li>
+                    <h3>Dragón oriental</h3>
+                    <img src="/img/dragon_oriental.jfif" alt="Dragon Oriental ">
+                    <p>
+                        En culturas asiáticas, los dragones se asocian con la buena suerte, la sabiduría y el agua.
+                        Normalmente tienen cuerpos largos, sin alas pero capaces de volar.
+                    </p>
+                </li>
+                <li>
+                    <h3>Dragones en la fantasía moderna</h3>
+                    <img src="/img/dragonHielo.jfif" alt="Dragon de hielo">
+                    <p>
+                        En libros, películas y videojuegos aparecen dragones de hielo, de sombra, mecánicos y muchas
+                        otras variaciones que combinan magia y tecnología.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Sección Galería con imágenes -->
+        <section id="galeria">
+            <h2>Galería de Dragones</h2>
+            <p>
+                Estas son algunas imágenes de dragones obtenidas de bancos de imágenes gratuitos.
+            </p>
+
+
+            <div>
+                <h3>Dragón en la montaña</h3>
+            
+                <img src="/img/dragonMontaña.jfif" alt="Ilustración de un dragón sobre una montaña" width="400">
+                <p>
+                    <em>Un dragón solitario observando el horizonte desde la cima de una montaña.</em>
+                </p>
+            </div>
+
+            <br>
+
+
+            <div>
+                <h3>Dragón de fuego</h3>
+                <img src="/img/dragon_fuego.jfif" alt="Dragón escupiendo fuego" width="400">
+                <p>
+                    <em>Representación de un dragón lanzando fuego, típico de muchas historias europeas.</em>
+                </p>
+            </div>
+
+            <br>
+
+            <div>
+                <h3>Dragón oriental</h3>
+                <img src="/img/dragon_oriental1.jfif" alt="Dragón oriental en estilo artístico" width="400" height="">
+                <p>
+                    <em>Un diseño inspirado en dragones orientales, asociado a celebraciones y festivales.</em>
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Sección Contacto con formulario -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>
+                Si quieres dejar un comentario sobre el mundo de los dragones o sugerir nuevas ideas
+                para este blog, completa el siguiente formulario.
+            </p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <p>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Correo electrónico:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="tipo-dragon">Tu tipo de dragón favorito:</label><br>
+                        <input type="text" id="tipo-dragon" name="tipo-dragon" placeholder="Ejemplo: dragón de fuego">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tu Mensaje</legend>
+                    <p>
+                        <label for="mensaje">Comentario:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="5" cols="40"
+                            placeholder="Escribe tu comentario aquí..."></textarea>
+                    </p>
+
+                    <p>¿Te gustaría recibir noticias sobre dragones?</p>
+                    <p>
+                        <label>
+                            <input type="radio" name="boletin" value="si"> Sí
+                        </label>
+                        <label>
+                            <input type="radio" name="boletin" value="no" checked> No
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p>
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Pie de página -->
+    <footer>
+        <center>
+            &copy; 2025 El Mundo del Dragón. Todos los derechos reservados.
+        </center>
+    </footer>
+
+
+</body>
+
+</html>
